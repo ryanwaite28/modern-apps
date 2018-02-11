@@ -54,6 +54,7 @@ App.controller('modernCtrl', ['$scope', function($scope){
   fetch('https://ryanwaite28.github.io/modern/modern-data.json')
   .then(function(resp){ return resp.json() })
   .then(function(resp){
+    console.log(resp);
     $scope.apps = resp.apps;
     $scope.$apply();
   })
