@@ -51,12 +51,37 @@ App.controller('modernCtrl', ['$scope', function($scope){
     }, 1000);
   }
 
-  fetch('https://ryanwaite28.github.io/modern/modern-data.json')
-  .then(function(resp){ return resp.json() })
-  .then(function(resp){
-    console.log(resp);
-    $scope.apps = resp.apps;
-    $scope.$apply();
-  })
+  $scope.apps = [
+    {
+      "name": "Live Time",
+      "desc": "Where Artists and Venues meet!",
+      "icon": "https://live-time.herokuapp.com/static/img/concert-wallpaper.jpeg",
+      "link": "https://live-time.herokuapp.com/"
+    },
+    {
+      "name": "SafeStar",
+      "desc": "Info Repository: Never lose your assets!",
+      "icon": "https://rmw-safestar.herokuapp.com/img/cloud-4.png",
+      "link": "https://rmw-safestar.herokuapp.com/"
+    },
+    {
+      "name": "Travellrs",
+      "desc": "Social: Record and share your travels!",
+      "icon": "https://rmw-travellrs-two.herokuapp.com/static/img/world-wallpaper.png",
+      "link": "https://rmw-travellrs-two.herokuapp.com/"
+    },
+    {
+      "name": "World News",
+      "desc": "News: From The People, To The People",
+      "icon": "https://rmw-world-news.herokuapp.com/vault/images/political-earth-2.jpg",
+      "link": "https://rmw-world-news.herokuapp.com/"
+    },
+    {
+      "name": "Vepolus API",
+      "desc": "API: Server-Side tools for Client-Side needs!",
+      "icon": "https://rmw-vepolus.herokuapp.com/img/api-wallpaper-2.png",
+      "link": "https://rmw-vepolus.herokuapp.com/"
+    }
+  ]
 
 }]);
