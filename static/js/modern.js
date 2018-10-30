@@ -53,6 +53,12 @@ App.controller('modernCtrl', ['$scope', function($scope){
 
   $scope.apps = [
     {
+      "name": "Epsity",
+      "desc": "Connect with the right people!",
+      "icon": "https://rmw-epsity.herokuapp.com/bin/img/fistbump-1.jpg",
+      "link": "https://rmw-epsity.herokuapp.com/"
+    },
+    {
       "name": "Live Time",
       "desc": "Where Artists and Venues meet!",
       "icon": "https://live-time.herokuapp.com/static/img/concert-wallpaper.jpeg",
