@@ -53,20 +53,26 @@ App.controller('modernCtrl', ['$scope', function($scope){
 
   $scope.apps = [
     {
+      "name": "Task Tracker Plus",
+      "desc": "Productivity: A To-Do List, but a little better!",
+      "icon": "https://rmw-task-tracker-plus.herokuapp.com/static/img/yrd6t.jpg",
+      "link": "https://rmw-task-tracker-plus.herokuapp.com/"
+    },
+    {
       "name": "Epsity",
-      "desc": "Connect with the right people!",
+      "desc": "Social Productivity: Connect with the right people!",
       "icon": "https://rmw-epsity.herokuapp.com/bin/img/fistbump-1.jpg",
       "link": "https://rmw-epsity.herokuapp.com/"
     },
     {
       "name": "Live Time",
-      "desc": "Where Artists and Venues meet!",
+      "desc": "Social Productivity: Where Artists and Venues meet!",
       "icon": "https://live-time.herokuapp.com/static/img/concert-wallpaper.jpeg",
       "link": "https://live-time.herokuapp.com/"
     },
     {
       "name": "SafeStar",
-      "desc": "Info Repository: Never lose your assets!",
+      "desc": "Utility: Info Repository: Never lose your assets!",
       "icon": "https://rmw-safestar.herokuapp.com/img/cloud-4.png",
       "link": "https://rmw-safestar.herokuapp.com/"
     },
