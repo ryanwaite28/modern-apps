@@ -53,6 +53,12 @@ App.controller('modernCtrl', ['$scope', function($scope){
 
   $scope.apps = [
     {
+      "name": "Blue World",
+      "desc": "Selling Platform: Don't give it away, just lend it!",
+      "icon": "https://rmw-blueworld.herokuapp.com/vault/images/blueworld-wallpaper-2.png",
+      "link": "https://rmw-blueworld.herokuapp.com/"
+    },
+    {
       "name": "Task Tracker Plus",
       "desc": "Productivity: A To-Do List, but a little better!",
       "icon": "https://rmw-task-tracker-plus.herokuapp.com/static/img/yrd6t.jpg",
