@@ -53,6 +53,12 @@ App.controller('modernCtrl', ['$scope', function($scope){
 
   $scope.apps = [
     {
+      "name": "DeliverMe",
+      "desc": "Delivery Platform: Deliver things for people; become your own post man/woman!",
+      "icon": "https://rmw-deliverme.herokuapp.com/static/media/deliverme-banner.jpg",
+      "link": "https://rmw-deliverme.herokuapp.com/"
+    },
+    {
       "name": "Blue World",
       "desc": "Selling Platform: Don't give it away, just lend it!",
       "icon": "https://rmw-blueworld.herokuapp.com/vault/images/blueworld-wallpaper-2.png",

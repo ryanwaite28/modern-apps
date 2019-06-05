@@ -87,3 +87,28 @@ body {
 .bottom-border {
   border-bottom: 1px solid black;
 }
+
+.middle-box {
+  width: 1500px;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+/* Flex */
+
+.flex-content-center {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.app-box {
+  width: 425px;
+  max-width: 100%;
+  margin: 10px;
+}
+
+.app-box .card-content {
+  height: 175px;
+}

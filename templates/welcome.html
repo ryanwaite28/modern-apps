@@ -42,7 +42,7 @@
       </div>
     </header>
 
-    <div class="container">
+    <div class="middle-box">
       <div class="row bottom-border">
         <div class="col s12">
           <div class="bar-2">
@@ -61,17 +61,19 @@
       <div class="row bar-2">
         <h4 class="header text-center">Latest Apps</h4>
         <br/>
-        <div class="col s12 m6" ng-repeat="app in apps">
-          <div class="card">
-            <div class="card-image fill" style="background-image: url(' (( app.icon )) ');">
-              <img src="(( app.icon ))" class="app-icon ghost">
-            </div>
-            <div class="card-content">
-              <span class="card-title">(( app.name ))</span>
-              <p>(( app.desc ))</p>
-            </div>
-            <div class="card-action">
-              <a title="Go To (( app.name ))'s Website" href="(( app.link ))">Link</a>
+        <div class="flex-content-center">
+          <div class="app-box" ng-repeat="app in apps">
+            <div class="card">
+              <div class="card-image fill" style="background-image: url(' (( app.icon )) ');">
+                <img src="(( app.icon ))" class="app-icon ghost">
+              </div>
+              <div class="card-content">
+                <span class="card-title">(( app.name ))</span>
+                <p>(( app.desc ))</p>
+              </div>
+              <div class="card-action">
+                <a title="Go To (( app.name ))'s Website" href="(( app.link ))">Link</a>
+              </div>
             </div>
           </div>
         </div>
