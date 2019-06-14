@@ -72,7 +72,11 @@
                 <p>(( app.desc ))</p>
               </div>
               <div class="card-action">
-                <a title="Go To (( app.name ))'s Website" href="(( app.link ))">Link</a>
+                <a ng-repeat="link in app.links"
+                  title="Go To (( app.name ))'s Website" 
+                  href="(( link.href ))">
+                  (( link.text ))
+                </a>
               </div>
             </div>
           </div>

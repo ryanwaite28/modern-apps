@@ -56,55 +56,75 @@ App.controller('modernCtrl', ['$scope', function($scope){
       "name": "DeliverMe",
       "desc": "Delivery Platform: Deliver things for people; become your own post man/woman!",
       "icon": "https://rmw-deliverme.herokuapp.com/static/media/deliverme-banner.jpg",
-      "link": "https://rmw-deliverme.herokuapp.com/"
+      "links": [
+        { text: "Link", href: "https://rmw-deliverme.herokuapp.com/" }
+      ]
     },
     {
       "name": "Blue World",
       "desc": "Selling Platform: Don't give it away, just lend it!",
       "icon": "https://rmw-blueworld.herokuapp.com/vault/images/blueworld-wallpaper-2.png",
-      "link": "https://rmw-blueworld.herokuapp.com/"
+      "links": [
+        { text: "Link", href: "https://rmw-blueworld.herokuapp.com/" }
+      ]
     },
     {
       "name": "Task Tracker Plus",
       "desc": "Productivity: A To-Do List, but a little better!",
       "icon": "https://rmw-task-tracker-plus.herokuapp.com/static/img/yrd6t.jpg",
-      "link": "https://rmw-task-tracker-plus.herokuapp.com/"
+      "links": [
+        { text: "Link", href: "https://rmw-task-tracker-plus.herokuapp.com/" }
+      ]
     },
     {
       "name": "Epsity",
       "desc": "Social Productivity: Connect with the right people!",
       "icon": "https://rmw-epsity.herokuapp.com/bin/img/fistbump-1.jpg",
-      "link": "https://rmw-epsity.herokuapp.com/"
+      "links": [
+        { text: "Link", href: "https://rmw-epsity.herokuapp.com/" }
+      ]
     },
     {
       "name": "Live Time",
       "desc": "Social Productivity: Where Artists and Venues meet!",
       "icon": "https://live-time.herokuapp.com/static/img/concert-wallpaper.jpeg",
-      "link": "https://live-time.herokuapp.com/"
+      "links": [
+        { text: "Link", href: "https://live-time.herokuapp.com/" }
+      ]
     },
     {
       "name": "SafeStar",
       "desc": "Utility: Info Repository: Never lose your assets!",
       "icon": "https://rmw-safestar.herokuapp.com/img/cloud-4.png",
-      "link": "https://rmw-safestar.herokuapp.com/"
+      "links": [
+        { text: "Version 1", href: "https://rmw-safestar.herokuapp.com/" },
+        { text: "Version 2", href: "https://rmw-safestar-two.herokuapp.com/" },
+      ]
     },
     {
       "name": "Travellrs",
       "desc": "Social: Record and share your travels!",
       "icon": "https://rmw-travellrs-two.herokuapp.com/static/img/world-wallpaper.png",
-      "link": "https://rmw-travellrs-two.herokuapp.com/"
+      "links": [
+        { text: "Version 1", href: "https://rmw-travellrs.herokuapp.com/" },
+        { text: "Version 2", href: "https://rmw-travellrs-two.herokuapp.com/" },
+      ]
     },
     {
       "name": "World News",
       "desc": "News: From The People, To The People",
       "icon": "https://rmw-world-news.herokuapp.com/vault/images/political-earth-2.jpg",
-      "link": "https://rmw-world-news.herokuapp.com/"
+      "links": [
+        { text: "Link", href: "https://rmw-world-news.herokuapp.com/" }
+      ]
     },
     {
       "name": "Vepolus API",
       "desc": "API: Server-Side tools for Client-Side needs!",
       "icon": "https://rmw-vepolus.herokuapp.com/img/api-wallpaper-2.png",
-      "link": "https://rmw-vepolus.herokuapp.com/"
+      "links": [
+        { text: "Link", href: "https://rmw-vepolus.herokuapp.com/" }
+      ]
     }
   ]
 
