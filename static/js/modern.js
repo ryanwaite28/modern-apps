@@ -53,6 +53,22 @@ App.controller('modernCtrl', ['$scope', function($scope){
 
   $scope.apps = [
     {
+      "name": "My Favors",
+      "desc": "Community: Help someone in need of a favor!",
+      "icon": "https://rmw-myfavors-client.herokuapp.com/background-1.jpg",
+      "links": [
+        { text: "Link", href: "https://rmw-myfavors-client.herokuapp.com" }
+      ]
+    },
+    {
+      "name": "Chef City",
+      "desc": "Cooking Network: Share recipes and prepare meals for others!",
+      "icon": "https://rmw-chef-city-client.herokuapp.com/static/cooking-wallpaper.png",
+      "links": [
+        { text: "Link", href: "https://rmw-chef-city-client.herokuapp.com" }
+      ]
+    },
+    {
       "name": "DeliverMe",
       "desc": "Delivery Platform: Deliver things for people; become your own post man/woman!",
       "icon": "https://rmw-deliverme.herokuapp.com/static/media/deliverme-banner.jpg",

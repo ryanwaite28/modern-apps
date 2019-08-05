@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Modern! - Software Company</title>
+
+    <link rel="stylesheet" type="text/css" href="/static/_cdn/materialize/css/materialize.css" />
+    <link rel="stylesheet" type="text/css" href="/static/_cdn/materialize/icon.css">
+    <link rel="stylesheet" type="text/css" href="/static/_cdn/css/emerald.css" />
+
+    <link rel="stylesheet" href="/static/css/modern.css">
+    <link rel="icon" href="/static/img/modern-icon.jpg">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="/static/_cdn/js/angular.js"></script>
+    <script src="/static/_cdn/js/emerald.js"></script>
+    <script src="/static/_cdn/materialize/js/materialize.js"></script>
+    <script src="/static/_cdn/js/parallax/parallax.min.js"></script>
+    <script src="/static/js/moment.js"></script>
+
+    <script src="/static/js/modern.js"></script>
+  </head>
+
+  <body ng-app="modernApp" ng-controller="modernCtrl">
+
+    {% include 'nav.html' %}
+
+    <header>
+      <div class="row fill parallax-window reach no-marg pos-rel" id="header" data-parallax="scroll">
+        <div class="dimmer"></div>
+
+        <div class="pos-rel" style="padding-top: 35vh;">
+          <div class="middlr">
+            <h2 id="" class="text-center header-text">Modern!</h2>
+            <br/>
+            <h5 class="text-center header-text"><em>Software Company</em></h5>
+            <br/>
+            <p class="text-center header-text"></p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="middle-box">
+      <div class="row bottom-border">
+        <div class="col s12">
+          <div class="bar-2">
+            <blockquote>
+              <span style="color: grey">The World Is A Better Place When We All Share Our Resources. <br/>
+              The Greatest Resource Is Knowledge.
+              <br/><br/>
+              - Ryan M. Waite</span>
+            </blockquote>
+            <br/>
+            <h5 class="text-center">Modern Apps have but one purpose: to help improve the world.</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="row bar-2">
+        <h4 class="header text-center">Latest Apps</h4>
+        <br/>
+        <div class="flex-content-center">
+          <div class="app-box" ng-repeat="app in apps">
+            <div class="card">
+              <div class="card-image fill" style="background-image: url(' (( app.icon )) ');">
+                <img src="(( app.icon ))" class="app-icon ghost">
+              </div>
+              <div class="card-content">
+                <span class="card-title">(( app.name ))</span>
+                <p>(( app.desc ))</p>
+              </div>
+              <div class="card-action">
+                <a ng-repeat="link in app.links"
+                  title="Go To (( app.name ))'s Website" 
+                  href="(( link.href ))">
+                  (( link.text ))
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% include 'footer.html' %}
+
+    <!--  -->
+    <script>
+
+    </script>
+  </body>
+</html>
