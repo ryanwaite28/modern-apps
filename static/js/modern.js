@@ -53,11 +53,21 @@ App.controller('modernCtrl', ['$scope', function($scope){
 
   $scope.apps = [
     {
+      "name": "Authority",
+      "desc": "Expression App: Be your own author and let the world see it!",
+      "icon": "https://rmw-authority.herokuapp.com/static/img/authority-wallpaper-1.jpg",
+      "links": [
+        { text: "Link", href: "https://rmw-authority.herokuapp.com" },
+        { text: "GitHub", href: "https://github.com/ryanwaite28/authority-app" },
+      ]
+    },
+    {
       "name": "My Favors",
       "desc": "Community: Help someone in need of a favor!",
       "icon": "https://rmw-myfavors-client.herokuapp.com/background-1.jpg",
       "links": [
-        { text: "Link", href: "https://rmw-myfavors-client.herokuapp.com" }
+        { text: "Link", href: "https://rmw-myfavors-client.herokuapp.com" },
+        { text: "GitHub", href: "https://github.com/ryanwaite28/myfavors-client" },
       ]
     },
     {
@@ -65,7 +75,8 @@ App.controller('modernCtrl', ['$scope', function($scope){
       "desc": "Cooking Network: Share recipes and prepare meals for others!",
       "icon": "https://rmw-chef-city-client.herokuapp.com/static/cooking-wallpaper.png",
       "links": [
-        { text: "Link", href: "https://rmw-chef-city-client.herokuapp.com" }
+        { text: "Link", href: "https://rmw-chef-city-client.herokuapp.com" },
+        { text: "GitHub", href: "https://github.com/ryanwaite28/chef-city-client" },
       ]
     },
     {
