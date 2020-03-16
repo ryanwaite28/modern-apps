@@ -58,8 +58,8 @@ App.controller('modernCtrl', ['$scope', function($scope){
       "icon": "https://rmw-tenant-search-server.herokuapp.com/_static/img/modern-card-wallpaper.jpg",
       "links": [
         { text: "Link", href: "https://rmw-tenant-search-client.herokuapp.com/" },
-        { text: "GitHub (Server)", href: "https://github.com/ryanwaite28/tenant-search-server" },
-	{ text: "GitHub (Client)", href: "https://github.com/ryanwaite28/tenant-search-client" },
+        { text: "Server", href: "https://github.com/ryanwaite28/tenant-search-server" },
+	{ text: "Client", href: "https://github.com/ryanwaite28/tenant-search-client" },
       ]
     },
     {
