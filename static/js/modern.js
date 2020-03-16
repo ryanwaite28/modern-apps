@@ -53,6 +53,16 @@ App.controller('modernCtrl', ['$scope', function($scope){
 
   $scope.apps = [
     {
+      "name": "Tenant Search",
+      "desc": "Real Estate App: Make the home owners apply to you!",
+      "icon": "https://rmw-tenant-search-server.herokuapp.com/_static/img/modern-card-wallpaper.jpg",
+      "links": [
+        { text: "Link", href: "https://rmw-tenant-search-client.herokuapp.com/" },
+        { text: "GitHub (Server)", href: "https://github.com/ryanwaite28/tenant-search-server" },
+	{ text: "GitHub (Client)", href: "https://github.com/ryanwaite28/tenant-search-client" },
+      ]
+    },
+    {
       "name": "Authority",
       "desc": "Expression App: Be your own author and let the world see it!",
       "icon": "https://rmw-authority.herokuapp.com/static/img/authority-wallpaper-1.jpg",
