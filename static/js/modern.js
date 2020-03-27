@@ -155,14 +155,6 @@ App.controller('modernCtrl', ['$scope', function($scope){
         { text: "Link", href: "https://rmw-world-news.herokuapp.com/" }
       ]
     },
-    {
-      "name": "Vepolus API",
-      "desc": "API: Server-Side tools for Client-Side needs!",
-      "icon": "https://rmw-vepolus.herokuapp.com/img/api-wallpaper-2.png",
-      "links": [
-        { text: "Link", href: "https://rmw-vepolus.herokuapp.com/" }
-      ]
-    }
   ]
 
 }]);
