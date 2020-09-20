@@ -53,6 +53,13 @@ App.controller('modernCtrl', ['$scope', function($scope){
 
   $scope.apps = [
     {
+      "name": "Prospect",
+      "desc": "Ultimate business network and platform!",
+      "icon": "https://rmw-prospect-client.herokuapp.com/assets/img/p-logo-1.png",
+      "links": [
+        { text: "Link", href: "https://rmw-prospect-client.herokuapp.com/" },
+      ]
+    }, {
       "name": "Tenant Search",
       "desc": "Real Estate App: Make the home owners apply to you!",
       "icon": "https://rmw-tenant-search-server.herokuapp.com/_static/img/modern-card-wallpaper.jpg",
